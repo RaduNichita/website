@@ -2,15 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://radunichita.github.io/website/blog</id>
     <title>The Beman Project Blog</title>
-    <updated>2024-10-30T00:00:00.000Z</updated>
+    <updated>2025-01-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://radunichita.github.io/website/blog"/>
     <subtitle>The Beman Project Blog</subtitle>
     <icon>https://radunichita.github.io/website/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Draft Blog]]></title>
+        <id>https://radunichita.github.io/website/blog/draft-blog</id>
+        <link href="https://radunichita.github.io/website/blog/draft-blog"/>
+        <updated>2025-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a short description of the blog]]></summary>
+        <content type="html"><![CDATA[<p>This is a short description of the blog</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus arcu, tempus at mauris non, fringilla sagittis odio. Sed non lobortis nisl. Aenean vestibulum hendrerit pulvinar. Morbi ac auctor ante. Nulla scelerisque elit est, cursus sollicitudin urna auctor nec. Nunc aliquam dapibus magna sit amet tristique. Nam imperdiet semper quam, quis posuere elit laoreet id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis rhoncus ipsum, vel gravida nibh. Cras massa mi, bibendum convallis facilisis nec, tincidunt at augue. Suspendisse vestibulum orci eu malesuada luctus.</p>
+<p>Vestibulum ex nunc, blandit vitae sapien congue, feugiat pharetra tellus. Pellentesque lobortis fringilla turpis sit amet bibendum. Aenean consectetur nibh arcu. Nulla lacinia quis tellus ac maximus. Vivamus accumsan, tortor id tempus cursus, nisi urna vulputate dolor, id aliquam velit nisl non diam. Vestibulum nisi velit, fermentum eget facilisis non, lobortis scelerisque sem. Morbi at dui nec elit gravida porttitor.</p>
+<p>Fusce sit amet hendrerit est. Integer scelerisque felis sit amet porta suscipit. Quisque interdum aliquam ex, et aliquet ante ultricies vitae. Proin in mollis justo. Aliquam erat volutpat. Integer consectetur ipsum in mattis sagittis. Vestibulum vitae felis ut neque lobortis dictum. Curabitur ac mauris velit.</p>]]></content>
+        <author>
+            <name>Radu Nichita</name>
+            <uri>https://github.com/RaduNichita</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[About Beman]]></title>
-        <id>https://radunichita.github.io/website/blog/about-beman</id>
-        <link href="https://radunichita.github.io/website/blog/about-beman"/>
+        <id>https://radunichita.github.io/website/blog/about-bemans</id>
+        <link href="https://radunichita.github.io/website/blog/about-bemans"/>
         <updated>2024-10-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.]]></summary>
         <content type="html"><![CDATA[<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>

@@ -4,14 +4,25 @@
         <title>The Beman Project Blog</title>
         <link>https://radunichita.github.io/website/blog</link>
         <description>The Beman Project Blog</description>
-        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Draft Blog]]></title>
+            <link>https://radunichita.github.io/website/blog/draft-blog</link>
+            <guid>https://radunichita.github.io/website/blog/draft-blog</guid>
+            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a short description of the blog]]></description>
+            <content:encoded><![CDATA[<p>This is a short description of the blog</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus arcu, tempus at mauris non, fringilla sagittis odio. Sed non lobortis nisl. Aenean vestibulum hendrerit pulvinar. Morbi ac auctor ante. Nulla scelerisque elit est, cursus sollicitudin urna auctor nec. Nunc aliquam dapibus magna sit amet tristique. Nam imperdiet semper quam, quis posuere elit laoreet id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis rhoncus ipsum, vel gravida nibh. Cras massa mi, bibendum convallis facilisis nec, tincidunt at augue. Suspendisse vestibulum orci eu malesuada luctus.</p>
+<p>Vestibulum ex nunc, blandit vitae sapien congue, feugiat pharetra tellus. Pellentesque lobortis fringilla turpis sit amet bibendum. Aenean consectetur nibh arcu. Nulla lacinia quis tellus ac maximus. Vivamus accumsan, tortor id tempus cursus, nisi urna vulputate dolor, id aliquam velit nisl non diam. Vestibulum nisi velit, fermentum eget facilisis non, lobortis scelerisque sem. Morbi at dui nec elit gravida porttitor.</p>
+<p>Fusce sit amet hendrerit est. Integer scelerisque felis sit amet porta suscipit. Quisque interdum aliquam ex, et aliquet ante ultricies vitae. Proin in mollis justo. Aliquam erat volutpat. Integer consectetur ipsum in mattis sagittis. Vestibulum vitae felis ut neque lobortis dictum. Curabitur ac mauris velit.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[About Beman]]></title>
-            <link>https://radunichita.github.io/website/blog/about-beman</link>
-            <guid>https://radunichita.github.io/website/blog/about-beman</guid>
+            <link>https://radunichita.github.io/website/blog/about-bemans</link>
+            <guid>https://radunichita.github.io/website/blog/about-bemans</guid>
             <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.]]></description>
             <content:encoded><![CDATA[<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>
