@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://RaduNichita.github.io/website/blog</id>
+    <id>https://radunichita.github.io/website/blog</id>
     <title>The Beman Project Blog</title>
     <updated>2024-10-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://RaduNichita.github.io/website/blog"/>
+    <link rel="alternate" href="https://radunichita.github.io/website/blog"/>
     <subtitle>The Beman Project Blog</subtitle>
-    <icon>https://RaduNichita.github.io/website/img/favicon.ico</icon>
+    <icon>https://radunichita.github.io/website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[About Beman]]></title>
-        <id>https://RaduNichita.github.io/website/blog/about-bemans</id>
-        <link href="https://RaduNichita.github.io/website/blog/about-bemans"/>
+        <id>https://radunichita.github.io/website/blog/about-bemans</id>
+        <link href="https://radunichita.github.io/website/blog/about-bemans"/>
         <updated>2024-10-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.]]></summary>
         <content type="html"><![CDATA[<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>
