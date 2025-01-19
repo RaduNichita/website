@@ -4,10 +4,21 @@
         <title>The Beman Project Blog</title>
         <link>https://radunichita.github.io/website/blog</link>
         <description>The Beman Project Blog</description>
-        <lastBuildDate>Mon, 06 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Beman Project Introduction Online]]></title>
+            <link>https://radunichita.github.io/website/blog/beman-tutorial</link>
+            <guid>https://radunichita.github.io/website/blog/beman-tutorial</guid>
+            <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[David Sankel’s talk on Beman at 2024 CppCon is now online!]]></description>
+            <content:encoded><![CDATA[<p>David Sankel’s talk on Beman at 2024 CppCon is now online!
+The presentation answers many questions about the project purpose and policies.</p>
+<iframe width="800" height="540" src="https://www.youtube.com/embed/f4JinCpcQOg" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>]]></content:encoded>
+            <category>GUGU</category>
+        </item>
         <item>
             <title><![CDATA[Draft Blog]]></title>
             <link>https://radunichita.github.io/website/blog/draft-blog</link>
@@ -21,8 +32,8 @@
         </item>
         <item>
             <title><![CDATA[About Beman]]></title>
-            <link>https://radunichita.github.io/website/blog/about-bemans</link>
-            <guid>https://radunichita.github.io/website/blog/about-bemans</guid>
+            <link>https://radunichita.github.io/website/blog/about-beman</link>
+            <guid>https://radunichita.github.io/website/blog/about-beman</guid>
             <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.]]></description>
             <content:encoded><![CDATA[<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>
