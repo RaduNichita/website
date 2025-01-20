@@ -7,7 +7,7 @@ import redirectPlugin from '@docusaurus/plugin-client-redirects';
 
 const config: Config = {
   title: 'The Beman Project',
-  tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries.',
+  tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
