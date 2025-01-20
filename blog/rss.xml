@@ -17,18 +17,8 @@
             <content:encoded><![CDATA[<p>David Sankel’s talk on Beman at 2024 CppCon is now online!
 The presentation answers many questions about the project purpose and policies.</p>
 <iframe width="800" height="540" src="https://www.youtube.com/embed/f4JinCpcQOg" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>]]></content:encoded>
-            <category>GUGU</category>
-        </item>
-        <item>
-            <title><![CDATA[Draft Blog]]></title>
-            <link>https://radunichita.github.io/website/blog/draft-blog</link>
-            <guid>https://radunichita.github.io/website/blog/draft-blog</guid>
-            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is a short description of the blog]]></description>
-            <content:encoded><![CDATA[<p>This is a short description of the blog</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus arcu, tempus at mauris non, fringilla sagittis odio. Sed non lobortis nisl. Aenean vestibulum hendrerit pulvinar. Morbi ac auctor ante. Nulla scelerisque elit est, cursus sollicitudin urna auctor nec. Nunc aliquam dapibus magna sit amet tristique. Nam imperdiet semper quam, quis posuere elit laoreet id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis rhoncus ipsum, vel gravida nibh. Cras massa mi, bibendum convallis facilisis nec, tincidunt at augue. Suspendisse vestibulum orci eu malesuada luctus.</p>
-<p>Vestibulum ex nunc, blandit vitae sapien congue, feugiat pharetra tellus. Pellentesque lobortis fringilla turpis sit amet bibendum. Aenean consectetur nibh arcu. Nulla lacinia quis tellus ac maximus. Vivamus accumsan, tortor id tempus cursus, nisi urna vulputate dolor, id aliquam velit nisl non diam. Vestibulum nisi velit, fermentum eget facilisis non, lobortis scelerisque sem. Morbi at dui nec elit gravida porttitor.</p>
-<p>Fusce sit amet hendrerit est. Integer scelerisque felis sit amet porta suscipit. Quisque interdum aliquam ex, et aliquet ante ultricies vitae. Proin in mollis justo. Aliquam erat volutpat. Integer consectetur ipsum in mattis sagittis. Vestibulum vitae felis ut neque lobortis dictum. Curabitur ac mauris velit.</p>]]></content:encoded>
+            <category>cppcon</category>
+            <category>conference</category>
         </item>
         <item>
             <title><![CDATA[About Beman]]></title>
@@ -42,6 +32,7 @@ The presentation answers many questions about the project purpose and policies.<
 <p>I left that meeting with the realization that it was possible to work together in a way I had never experienced in my regular job, driven by consensus, and that this spirit both raised the level of discourse, and produced better results, than what I had seen before. It put the lie to the disparaging phrase “designed by committee.” So when Beman proposed that we start the Boost Libraries project, I was immediately on board. His idea for Boost would blossom into a unique community of collaborative library designers because of the example he set.</p>
 <p>As we grew Boost over the years, so grew our friendship, and when Beman passed away suddenly in 2020, it was a great loss to me personally, and, I think, to the world of programming. Beman never sought the spotlight, and I always wondered what would become of his contribution, which was surely underappreciated. That’s why I was so thrilled to hear that a modern C++ libraries project was being launched in his name. May it continue to demonstrate Beman’s commitment to community and excellence.</p>
 <p><img decoding="async" loading="lazy" alt="A photo of Beman Dawes" src="https://radunichita.github.io/website/assets/images/beman-0cb24de3c35debff92988b8745ebdaa7.png" width="1920" height="1654" class="img_ev3q"></p>]]></content:encoded>
+            <category>beman</category>
         </item>
     </channel>
 </rss>

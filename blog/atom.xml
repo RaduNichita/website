@@ -20,22 +20,8 @@ The presentation answers many questions about the project purpose and policies.<
             <name>Jeff Garland</name>
             <uri>https://github.com/JeffGarland</uri>
         </author>
-        <category label="GUGU" term="GUGU"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Draft Blog]]></title>
-        <id>https://radunichita.github.io/website/blog/draft-blog</id>
-        <link href="https://radunichita.github.io/website/blog/draft-blog"/>
-        <updated>2025-01-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a short description of the blog]]></summary>
-        <content type="html"><![CDATA[<p>This is a short description of the blog</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus arcu, tempus at mauris non, fringilla sagittis odio. Sed non lobortis nisl. Aenean vestibulum hendrerit pulvinar. Morbi ac auctor ante. Nulla scelerisque elit est, cursus sollicitudin urna auctor nec. Nunc aliquam dapibus magna sit amet tristique. Nam imperdiet semper quam, quis posuere elit laoreet id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis rhoncus ipsum, vel gravida nibh. Cras massa mi, bibendum convallis facilisis nec, tincidunt at augue. Suspendisse vestibulum orci eu malesuada luctus.</p>
-<p>Vestibulum ex nunc, blandit vitae sapien congue, feugiat pharetra tellus. Pellentesque lobortis fringilla turpis sit amet bibendum. Aenean consectetur nibh arcu. Nulla lacinia quis tellus ac maximus. Vivamus accumsan, tortor id tempus cursus, nisi urna vulputate dolor, id aliquam velit nisl non diam. Vestibulum nisi velit, fermentum eget facilisis non, lobortis scelerisque sem. Morbi at dui nec elit gravida porttitor.</p>
-<p>Fusce sit amet hendrerit est. Integer scelerisque felis sit amet porta suscipit. Quisque interdum aliquam ex, et aliquet ante ultricies vitae. Proin in mollis justo. Aliquam erat volutpat. Integer consectetur ipsum in mattis sagittis. Vestibulum vitae felis ut neque lobortis dictum. Curabitur ac mauris velit.</p>]]></content>
-        <author>
-            <name>Radu Nichita</name>
-            <uri>https://github.com/RaduNichita</uri>
-        </author>
+        <category label="cppcon" term="cppcon"/>
+        <category label="conference" term="conference"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[About Beman]]></title>
@@ -53,5 +39,6 @@ The presentation answers many questions about the project purpose and policies.<
             <name>Dave Abrahams</name>
             <uri>https://github.com/dabrahams</uri>
         </author>
+        <category label="beman" term="beman"/>
     </entry>
 </feed>
