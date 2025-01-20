@@ -12,6 +12,8 @@ This document specifies rules and recommendations for Beman project libraries.
 Its goal is to create consistency facilitating the evaluation of, and
 contribution to Beman libraries.
 
+<!-- truncate -->
+
 ## Introduction
 
 ### Core principles

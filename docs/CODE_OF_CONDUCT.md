@@ -12,8 +12,13 @@ SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
 The Beman Project community works to be welcoming and kind among itself and to others,
 with a deep commitment to psychological safety, and we want to ensure that
-doesn’t change as we grow and evolve. To that end, we have a few ground rules
+doesn’t change as we grow and evolve.
+
+<!-- truncate -->
+
+To that end, we have a few ground rules
 that we ask all community members to adhere to:
+
 
 -   be welcoming,
 -   be friendly and patient,

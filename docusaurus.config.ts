@@ -1,12 +1,13 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import redirectPlugin from '@docusaurus/plugin-client-redirects'; 
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: 'The Beman Project',
-  tagline: 'The Beman Project ',
+  tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -81,6 +82,7 @@ const config: Config = {
           label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/libraries', label: 'Libraries', position: 'left'},
         {
 					'aria-label': 'Discourse Forum',
 					'className': 'navbar--discourse-link',
@@ -97,45 +99,12 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discourse',
-              href: 'https://discourse.bemanproject.org/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/bemanproject',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Beman Team.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Beman Project. Built with docusaurus`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
+    }
   } satisfies Preset.ThemeConfig,
 };
 

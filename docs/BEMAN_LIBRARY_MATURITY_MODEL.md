@@ -4,12 +4,14 @@ sidebar_position: 1
 
 # The Beman Library Maturity Model
 
+<!-- truncate -->
 
 <!--
 SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 -->
 
 `The Beman maturity model` helps developers quickly assess the production readiness of Beman libraries by classifying them based on development phase and interface stability.
+
 
 <img src="https://radunichita.github.io/website/img/beman_flow-beman_library_maturity_model.png"/>
 

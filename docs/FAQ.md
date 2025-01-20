@@ -8,6 +8,8 @@ sidebar_position: 5
 SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 -->
 
+<!-- truncate -->
+
 ## What is the relationship between the Beman Project and the Boost Foundation?
 
 While both Beman Project and Boost strive to provide high-quality C++ libraries to the community, the Beman Project is specifically focused on fostering works that can be adopted by the standard library. Note that we expect some Boost libraries will become part of Beman over time.

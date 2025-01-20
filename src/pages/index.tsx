@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,28 +8,47 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+// Import your SVG files if needed
+import LeftSVG from './img/left-image.svg';
+import RightSVG from './img/right-image.svg';
+
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx(styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div className="hero__subtitle">
+          <div className={styles.taglineContainer}>
+            <img
+              src="./img/logo.png"
+              alt="Left Image"
+              className={styles.taglineImage}
+            />
+            <span>{siteConfig.tagline}</span>
+            <img
+              src="./img/logo.png"
+              alt="Left Image"
+              className={styles.taglineImage}
+            />
+          </div>
         </div>
+        <div className={styles.buttons}></div>
       </div>
     </header>
   );
 }
 
+
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
