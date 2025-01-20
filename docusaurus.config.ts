@@ -7,7 +7,7 @@ import redirectPlugin from '@docusaurus/plugin-client-redirects';
 
 const config: Config = {
   title: 'The Beman Project',
-  tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries',
+  tagline: 'Supporting the efficient design and adoption of the highest quality C++ standard libraries.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -75,14 +75,14 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
+        {to: '/libraries', label: 'Libraries', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/libraries', label: 'Libraries', position: 'left'},
         {
 					'aria-label': 'Discourse Forum',
 					'className': 'navbar--discourse-link',
@@ -95,11 +95,13 @@ const config: Config = {
 					'href': 'https://github.com/bemanproject',
 					'position': 'right',
 				},
+        {to: "/talks", label: "Talks", position: 'left'},
+        {to: "/blog/authors", label: "Team", position: 'left'}
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Beman Project. Built with docusaurus`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Beman Project. Built with docusaurus`,
     },
     prism: {
       theme: prismThemes.github,

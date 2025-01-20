@@ -16,28 +16,28 @@ SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 <img src="https://radunichita.github.io/website/img/beman_flow-beman_library_maturity_model.png"/>
 
 ### Under development and not yet ready for production use.
-<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_under_development.png" styles="{{width:5%; height:auto;}}"/> These libraries may deviate from the Beman Standard due to incompleteness, lack of testing, inconsistencies with the specification, or other non-conformances.
+<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_under_development.png" style={{ width: "100px", height: "100px" }}/> These libraries may deviate from the Beman Standard due to incompleteness, lack of testing, inconsistencies with the specification, or other non-conformances.
 
 :::danger
 > They are not recommended for production usage!
 :::
 
 ### Production ready. API may undergo changes.
-<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_production_ready_api_may_undergo_changes.png" styles="{{width:5%; height:auto;}}"/> These Beman-compliant libraries are production-ready, fully implementing the target paper with complete testing and documentation. Users should be aware that future API changes are possible and that standardization is not guaranteed.
+<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_production_ready_api_may_undergo_changes.png" style={{ width: "100px", height: "100x" }}/> These Beman-compliant libraries are production-ready, fully implementing the target paper with complete testing and documentation. Users should be aware that future API changes are possible and that standardization is not guaranteed.
 
 :::note
 > These libraries are recommended for production usage.
 :::
 
 ### Production ready. Stable API.
-<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_production_ready_stable_api.png" styles="{{width:5%; height:auto;}}"/> These production-ready libraries offer stable, standardized APIs.  They are part of the C++ Standard and can be used as a polyfill for compilers lacking native support. Note that these libraries will be retired after two standardization cycles (6 years).
+<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_production_ready_stable_api.png" style={{ width: "100px", height: "100x" }}/> These production-ready libraries offer stable, standardized APIs.  They are part of the C++ Standard and can be used as a polyfill for compilers lacking native support. Note that these libraries will be retired after two standardization cycles (6 years).
 
 :::note
 > These libraries are recommended for production usage.
 :::
 
 ### Retired. No longer maintained or actively developed.
-<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_retired.png" styles="{{width:5%; height:auto;}}"/> These libraries were archived and no longer maintained. These libraries are not recommended for production use.
+<img src="https://radunichita.github.io/website/img/logos/beman_logo-beman_library_retired.png" style={{ width: "100px", height: "100x" }}/> These libraries were archived and no longer maintained. These libraries are not recommended for production use.
 
 
 :::danger

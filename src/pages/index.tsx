@@ -25,13 +25,13 @@ function HomepageHeader() {
             <img
               src="./img/logo.png"
               alt="Left Image"
-              className={styles.taglineImage}
+              style={{ width: '400px', height: '400px' }}
             />
             <span>{siteConfig.tagline}</span>
             <img
               src="./img/logo.png"
-              alt="Left Image"
-              className={styles.taglineImage}
+              alt="Right Image"
+              style={{ width: '400px', height: '400px' }}
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Beman website/>"
     >
       <HomepageHeader />
       <main>
