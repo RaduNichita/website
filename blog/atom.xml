@@ -2,31 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://radunichita.github.io/website/blog</id>
     <title>The Beman Project Blog</title>
-    <updated>2025-01-13T00:00:00.000Z</updated>
+    <updated>2024-10-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://radunichita.github.io/website/blog"/>
     <subtitle>The Beman Project Blog</subtitle>
     <icon>https://radunichita.github.io/website/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Beman Project Introduction Online]]></title>
-        <id>https://radunichita.github.io/website/blog/beman-tutorial</id>
-        <link href="https://radunichita.github.io/website/blog/beman-tutorial"/>
-        <updated>2025-01-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[David Sankel’s talk on Beman at 2024 CppCon is now online!]]></summary>
-        <content type="html"><![CDATA[<p>David Sankel’s talk on Beman at 2024 CppCon is now online!
-The presentation answers many questions about the project purpose and policies.</p>
-<iframe width="800" height="540" src="https://www.youtube.com/embed/f4JinCpcQOg" frameborder="0" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>]]></content>
-        <author>
-            <name>Jeff Garland</name>
-            <uri>https://github.com/JeffGarland</uri>
-        </author>
-        <category label="cppcon" term="cppcon"/>
-        <category label="conference" term="conference"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[About Beman]]></title>
-        <id>https://radunichita.github.io/website/blog/about-beman</id>
-        <link href="https://radunichita.github.io/website/blog/about-beman"/>
+        <id>https://radunichita.github.io/website/blog/about-bemans</id>
+        <link href="https://radunichita.github.io/website/blog/about-bemans"/>
         <updated>2024-10-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.]]></summary>
         <content type="html"><![CDATA[<p>I met Beman Dawes when I attended my first C++ committee meeting in 1997. I wasn’t even a committee member at that time; I showed up at the meeting because I was trying to get exception safety into the C++ standard and Andrew Koenig had made it clear that arguing for it over email wasn’t going to cut it; I needed to show my face.</p>
@@ -39,6 +23,5 @@ The presentation answers many questions about the project purpose and policies.<
             <name>Dave Abrahams</name>
             <uri>https://github.com/dabrahams</uri>
         </author>
-        <category label="beman" term="beman"/>
     </entry>
 </feed>
