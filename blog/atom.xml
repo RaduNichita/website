@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://radunichita.github.io/website/blog</id>
     <title>The Beman Project Blog</title>
-    <updated>2025-01-13T00:00:00.000Z</updated>
+    <updated>2025-01-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://radunichita.github.io/website/blog"/>
     <subtitle>The Beman Project Blog</subtitle>
     <icon>https://radunichita.github.io/website/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Beman Lazy]]></title>
+        <id>https://radunichita.github.io/website/blog/beman-lazy</id>
+        <link href="https://radunichita.github.io/website/blog/beman-lazy"/>
+        <updated>2025-01-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a post about Beman Lazy.]]></summary>
+        <content type="html"><![CDATA[<p>This is a post about Beman Lazy.</p>
+<p><code>beman::execution::lazy&lt;T, Context&gt;</code> is a class template which
+is used as the the type of coroutine tasks. The corresponding objects
+are senders.  The first template argument (<code>T</code>) defines the result
+type which becomes a <code>set_value_t(T)</code> completion signatures. The
+second template argument (<code>Context</code>) provides a way to configure
+the behavior of the coroutine. By default it can be left alone.</p>]]></content>
+        <author>
+            <name>Radu Nichita</name>
+            <uri>https://github.com/RaduNichita</uri>
+        </author>
+        <category label="project" term="project"/>
+        <category label="paper implementation" term="paper implementation"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beman Project Introduction Online]]></title>
         <id>https://radunichita.github.io/website/blog/beman-tutorial</id>

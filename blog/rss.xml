@@ -4,10 +4,26 @@
         <title>The Beman Project Blog</title>
         <link>https://radunichita.github.io/website/blog</link>
         <description>The Beman Project Blog</description>
-        <lastBuildDate>Mon, 13 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Beman Lazy]]></title>
+            <link>https://radunichita.github.io/website/blog/beman-lazy</link>
+            <guid>https://radunichita.github.io/website/blog/beman-lazy</guid>
+            <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a post about Beman Lazy.]]></description>
+            <content:encoded><![CDATA[<p>This is a post about Beman Lazy.</p>
+<p><code>beman::execution::lazy&lt;T, Context&gt;</code> is a class template which
+is used as the the type of coroutine tasks. The corresponding objects
+are senders.  The first template argument (<code>T</code>) defines the result
+type which becomes a <code>set_value_t(T)</code> completion signatures. The
+second template argument (<code>Context</code>) provides a way to configure
+the behavior of the coroutine. By default it can be left alone.</p>]]></content:encoded>
+            <category>project</category>
+            <category>paper implementation</category>
+        </item>
         <item>
             <title><![CDATA[Beman Project Introduction Online]]></title>
             <link>https://radunichita.github.io/website/blog/beman-tutorial</link>
