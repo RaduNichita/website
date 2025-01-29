@@ -25,6 +25,25 @@ $ tree -L 1 --charset=ascii
 <details>
 <summary>Installation and local development</summary>
 
+1. In order to setup the project, you have to install `npm`, `yarn` and `node`. 
+
+For Linux:
+
+```bash
+sudo apt install nodejs
+sudo apt install npm 
+```
+
+For MacOS:
+
+```bash
+brew install node; 
+brew install npm;
+npm install yarn;
+```
+
+
+
 1. To install the required components for running the website, run:
     ```bash
     $ yarn
@@ -68,11 +87,11 @@ $ tree -L 1 --charset=ascii
     ```
 
     For example: `2025-01-24-example-blog`
-1.  Create a markdown file with the name `blog.md` in the new folder.
+1.  Create a markdown file with the name `index.md` in the new folder.
     ```bash
-    $ touch  blog/YYYY-MM-DD-tile-of-post/blog.md
+    $ touch  blog/YYYY-MM-DD-tile-of-post/index.md
     ```
-    The name `blog.md` is used only for consistency as a internal convention.
+    The name `index.md` is used only for consistency as a internal convention.
 
 1.  At the top of the Markdown file, include front matter metadata.
     This provides essential information about the post.
@@ -84,8 +103,20 @@ $ tree -L 1 --charset=ascii
     tags: ["docusaurus", "guide", "blog"]  # Tags for categorization
     ---
     ```
-
 1. Write your content in the markdown file
+1. (**Only for first-time contributors**) If this is your first time writing a blog post, you have to add yourself as an author in the `blog/authors.yml` file.
+At the end of the `blog/authors.yml` file, add a new entry using the following format:
+    ```bash
+    <AuthorTag>: # your author tag, this is what you will use in the header section for a log
+    name: # Your Real Name
+    title: # Your title, how do you want to be recognized by other people
+    url: # Your Github profile page
+    image_url: # A url for your profile image (if you want to put your Github profile image, you can go to your profile, then click on your image and open it in a new tab. From the new tab, copy the link).
+    page: true # if an author page should be generated for you. 
+    socials: # Include your socials (like your Github, X, Linkedin etc)
+        github: <yourGithubId>
+    ```
+
 1. When you're happy with the content of your blog, commit the changes to remote repository
     ```bash
         $ git add blog/YYYY-MM-DD-tile-of-post
