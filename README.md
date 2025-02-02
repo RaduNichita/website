@@ -30,21 +30,26 @@ $ tree -L 1 --charset=ascii
 For Linux:
 
 ```bash
-sudo apt install nodejs
-sudo apt install npm 
+$ sudo apt install nodejs;
+$ sudo apt install npm;
+$ npm install yarn;
 ```
 
 For MacOS:
 
 ```bash
-brew install node; 
-brew install npm;
-npm install yarn;
+$ brew install node; 
+$ brew install npm;
+$ npm install -g yarn;
 ```
 
+You can verify `yarn` is properly installed using
 
+```bash
+yarn --version
+```
 
-1. To install the required components for running the website, run:
+1. To install the required components for running the website, run the following command inside the cloned repository:
     ```bash
     $ yarn
     ```
@@ -103,6 +108,10 @@ npm install yarn;
     tags: ["docusaurus", "guide", "blog"]  # Tags for categorization
     ---
     ```
+
+    Note: the title may be omitted and you can use instead the markdown syntax for a header (#)
+
+
 1. Write your content in the markdown file
 1. (**Only for first-time contributors**) If this is your first time writing a blog post, you have to add yourself as an author in the `blog/authors.yml` file.
 At the end of the `blog/authors.yml` file, add a new entry using the following format:
