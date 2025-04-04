@@ -21,8 +21,9 @@ const config: Config = {
   organizationName: 'radunichita', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  plugins: [require.resolve("@easyops-cn/docusaurus-search-local")],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -66,6 +67,15 @@ const config: Config = {
   ],
 
   themeConfig: {
+    search: {
+      provider: "local",
+      local: {
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+      },
+    },
+
     // Replace with your project's social card
     image: 'img/logo.png',
     navbar: {
